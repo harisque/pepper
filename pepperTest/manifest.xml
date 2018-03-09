@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="peppertest-4f2f8e">
+ <names>
+  <name lang="en_US">pepper_test1</name>
+ </names>
+ <supportedLanguages>
+  <language>zh_CN</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>zh_CN</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="test">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, user-scalable=no"/>
+    <title>PepperTablet</title>
+    <script src="js/vue.js"></script>
+    <!--<script src="js/D.min.js"></script>-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="/libs/qi/2/qi.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div id="app">
+        <component :is="currentView" @jump="changeView"></component>
+    </div>
+
+    <script type ='text/x-template' id="menu">
+        <div :class="cols">
+            <div>{{ name }}</div>
+            <a v-for="m in members" :name="m.name" @click="changeView" class="menu-item">{{m.display}}</a>
+        </div>
+    </script>
+
+    <script type ='text/x-template' id="rm">
+        <div>
+            <p class="rm-text">请等待客户经理为您协助办理</p>
+        </div>
+    </script>
+
+    <script src="js/testApp.js"></script>
+</body>
+</html>

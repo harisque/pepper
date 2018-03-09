@@ -1,0 +1,15 @@
+topic: ~test1()
+language: mnc
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+concept:(你好) [你好 好 早上好 下午好 中午好 晚上好]
+concept:(产品介绍)［产品介绍 产品］
+u:(~你好) 你好，我叫小梦
+

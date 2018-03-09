@@ -1,0 +1,60 @@
+html{
+    width:1280px;
+    height:800px;
+    overflow:hidden;
+    font-family: "HanHei SC","PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",Tahoma,sans-serif;
+    color:rgb(0,92,132)
+}
+body{
+    background-color: #eee;
+    width:1280px;
+    height:800px;
+    font-size:16px;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+div#app{
+    width:80rem;
+    padding:0;
+    margin:0;
+    background-color:rgba(0,117,178,.5);
+    height:50rem;
+}
+
+
+/*********MENU***********/
+.menu-item{
+    background-color:rgba(105,190,40,.5);
+    font-size:2rem;
+    padding:4rem 1rem;
+    display:inline-block;
+    text-align: center;
+    border-radius: 1rem;
+    line-height:2rem;
+}
+
+.single-col > .menu-item {
+    width: 70rem;
+    margin:1rem 5rem;
+}
+.two-col > .menu-item {
+    width: 32rem;
+    margin:1rem 3rem;
+}
+.three-col > .menu-item {
+    width: 20rem;
+    margin:1rem 2rem;
+}
+.four-col > .menu-item {
+    width: 15rem;
+    margin:1rem 4rem;
+}
+
+/*********RM***********/
+.rm-text{
+    font-size:3rem;
+    padding:0;
+    margin:0;
+}
